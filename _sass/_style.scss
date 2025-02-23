@@ -22,6 +22,28 @@ $font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
       font-size: 1.2rem;
     }
   }
+  .wrapper, main {
+    background-color: $color-primary;
+  }
+  * {
+    color: $color-text !important; 
+  }
+
+  a, p, h1, h2, h3, h4, h5, h6, span, div {
+    color: $color-text !important;
+  }
+  blockquote, .backlink-box {
+    background-color: $color-box-background;
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid $color-border;
+    &:hover {
+      color: black !important;
+      background: #fffaf1;
+    }
+  }
   
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Space Mono', monospace;
