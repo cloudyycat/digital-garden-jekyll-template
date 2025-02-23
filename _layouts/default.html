@@ -2,6 +2,9 @@
 <html lang="en">
   {% include head.html %}
   <body>
+    <header>
+      <img src="{{ 'fieldnotes_title'}}" alt="Header Image" class="header-img">
+    </header>
     <nav>{% include nav.html %}</nav>
     <div class="wrapper">
       <main>{{ content }}</main>
@@ -9,9 +12,6 @@
     </div>
 
     {% include link-previews.html wrapperQuerySelector="content" %}
-    <header>
-      <img src="{{ 'fieldnotes_title'}}" alt="Header Image" class="header-img">
-    </header>
-    
+
   </body>
 </html>
