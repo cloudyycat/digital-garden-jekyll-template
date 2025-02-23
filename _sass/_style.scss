@@ -70,7 +70,7 @@ a {
     border-bottom: 1px solid $color-border;
     &:hover {
       color: black !important;
-      background: #fffaf1;
+      background: #b9e800;
     }
   }
 
@@ -149,7 +149,7 @@ a {
     top: -0.5em;
     font-size: 0.7em;
     content: "↗";
-    color: #aaaaaa;
+    color: #b9e800;
   }
   &.internal-link:after,
   &.footnote:after,
