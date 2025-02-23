@@ -22,6 +22,9 @@ sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    body {
+      font-family: $font-family !important;
+    }
   
     @media (min-width: 820px) {
       font-size: 1.2rem;
