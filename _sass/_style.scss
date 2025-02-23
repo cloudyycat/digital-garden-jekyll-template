@@ -9,7 +9,7 @@ $font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
 
   body {
     box-sizing: content-box;
-    font-family: 'Hedvig Letter Serif', serif;
+    font-family: 'Hedvig Letter Serif', serif !important;
     margin: 0 auto;
     line-height: 1.7;
     padding: 4vh 6vw;
