@@ -110,7 +110,7 @@ blockquote {
   padding: 1.5em;
   margin: 0;
   font-size: 0.88em;
-  background: #b9e800 !important;
+  background: #e9f4be !important;
   border-radius: $border-radius;
 
   p {
@@ -119,7 +119,7 @@ blockquote {
 }
 
 .wrapper blockquote, main blockquote {
-  background: #b9e800 !important;
+  background: #e9f4be !important;
 }
 
 hr {
@@ -156,7 +156,7 @@ a {
     top: -0.5em;
     font-size: 0.7em;
     content: "↗";
-    color: #b9e800;
+    color: #e9f4be;
   }
   &.internal-link:after,
   &.footnote:after,
@@ -166,7 +166,7 @@ a {
 }
 
 *:focus {
-  background: #ffe8bc !important;
+  background: #f7c7f7 !important;
   color: black !important;
 }
 
