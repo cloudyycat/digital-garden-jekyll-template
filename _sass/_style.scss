@@ -30,6 +30,18 @@ sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
       font-size: 1.2rem;
     }
   }
+
+  .fieldnotes_title {
+    width: 100%; /* Make the image stretch across the full width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
+  }
+  
+  header {
+    text-align: center; /* Center the image */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
   .wrapper, main {
     background-color: $color-primary;
     width: 100%;
