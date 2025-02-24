@@ -31,22 +31,25 @@ sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     }
   }
 
-  .fieldnotes_title.jpg {
-    width: 65%; /* Make the image stretch across the full width */
+  .header-img {
+    width: 65%; /* Image takes 65% of the container width */
     height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure the image is displayed as a block element */
+    display: block; /* Ensures it's a block element */
+    margin: 0 auto; /* Centers the image */
   }
   
   header {
-    text-align: center; /* Center the image */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    text-align: center;
+    margin: 0;
+    padding: 0;
   }
+  
   .wrapper, main {
     background-color: $color-primary;
     width: 100%;
     min-height: 100vh;
   }
+  
   /* Fix navigation/header background */
 nav {
   background-color: $color-primary !important;
