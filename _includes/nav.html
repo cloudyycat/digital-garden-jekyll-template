@@ -1,3 +1,8 @@
-<div>
-    <a class="internal-link" href="{{ site.baseurl }}/"><b>{{ site.title }}</b></a>
+<div class="nav-bar">
+  <a class="internal-link nav-brand" href="{{ site.baseurl }}/"><b>{{ site.title }}</b></a>
+  <div class="nav-links">
+    <a class="internal-link nav-link{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    <a class="internal-link nav-link{% if page.url == '/about/' or page.url == '/about' %} active{% endif %}" href="{{ site.baseurl }}/about">About</a>
+    <a class="internal-link nav-link{% if page.url == '/archive/' or page.url == '/archive' %} active{% endif %}" href="{{ site.baseurl }}/archive">Archive</a>
+  </div>
 </div>

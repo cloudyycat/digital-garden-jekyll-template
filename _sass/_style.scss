@@ -189,6 +189,25 @@ nav {
   margin: 1em 0 3em;
 }
 
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em 1.5em;
+}
+
+.nav-link.active {
+  background: #b9e800;
+  color: black !important;
+}
+
 #notes-entry-container {
   display: grid;
   grid-gap: 2em;
