@@ -6,7 +6,7 @@ permalink: /archive
 
 # Archive
 
-All notes, newest first.
+a good place to get lost for a while.
 
 <ul>
   {% assign all_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
